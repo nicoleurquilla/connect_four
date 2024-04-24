@@ -1,0 +1,139 @@
+body {
+	background-color: #ffffff;
+}
+
+h1 {
+
+	font-family: "Kalam";
+	font-size: 3rem;
+	color: #62a8Ac;
+	text-align: center;
+
+}
+
+p {
+
+	font-family: "Kalam";
+	font-size: 3rem;
+	color: #62a8Ac;
+	text-align: center;
+
+}
+
+/* Main Container */
+
+#main-container {
+
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-height: 100vh;
+
+}
+
+/* Player Details */
+
+#player {
+
+	background-color: #284B63;
+	border: 8px solid #284B63;
+	border-radius: 0;
+	margin-top: 50px;
+	padding: 20px;
+	width: 550px;
+
+}
+
+#player-type {
+
+	color: #91c2c5;
+	font-family: "Kalam";
+	font-size: 2rem;
+	letter-spacing: 5px;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+
+/* Grid */
+
+.player-1 {
+    background-color: #284B63; /* Set background color for player 1 */
+}
+
+.player-2 {
+    background-color: #3c6e71; /* Set background color for player 2 */
+}
+
+#grid {
+
+	background-color: #284B63;
+	border: 3.5px solid #284B63;
+	border-radius: 0;
+	box-shadow: 2px 3px 7px #284B63;
+	margin-top: 50px;
+	max-width: 600px;
+	padding: 3px;
+
+}
+
+/* Grid Row */
+
+.row {
+
+	display: flex;
+
+}
+
+/* Grid Column */
+
+.col {
+
+	align-items: center;
+	background-color: #d9d9d9;
+	border: 1px solid  #284B63;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	height: 75px;
+	margin: 5px;
+	width:  75px;
+
+}
+/* Buttons */
+
+.btn {
+
+	background-color: transparent;
+	border: none;
+	color: transparent;
+	height: 100%;
+	padding: 0;
+	width: 100%;
+
+}
+
+#reset-btn {
+
+	background-color: transparent;
+	border: 2px solid #3c6e71;
+	border-radius: 5px;
+	color: #3c6e71;
+	font-family: "Kalam";
+	font-size: 1.5rem;
+	margin: 50px 0;
+	padding: 10px 40px;
+	text-transform: uppercase;
+	transition: 0.7s;
+
+}
+
+#reset-btn:hover {
+
+	background-color: #3c6e71;
+	color: #3c6e71;
+	cursor: pointer;
+	transition: 0.7s;
+
+}

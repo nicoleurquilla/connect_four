@@ -1,17 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Connect Four</title>
-<link href="https://i.imgur.com/09Uy9sF.png" rel="icon">
-<link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="referrer" content="no-referrer">
+
+	<!-- Google Fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Permanent+Marker&display=swap">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="styles.css">
+
+	<!--Browser tab-->
+	<title>Connect Four Game</title>
+	<link href="https://i.imgur.com/09Uy9sF.png" rel="icon">
+
 </head>
+
 <body>
-  <h1>Let's Play Connect Four Now!</h1>
-<div class="container">
-    <div class="board" id="board"></div>
+<div id="main-container">
+	<div id="player">
+	<h1>Connect Four!</h1>
+	<h1 id="player-type">Player 1</h1>
+	<p id="winner-msg"></p>
+	</div>
+	<div id="grid">
+		<div class="row">
+			<div class="col">
+				<button class="btn" id="r0c0"></button>
+			</div>
+			<div class="col">
+				<button class="btn" id="r0c1"></button>
+			</div>
+			<div class="col">
+				<button class="btn" id="r0c2"></button>
+			</div>
+			<div class="col">
+				<button class="btn" id="r0c3"></button>
+			</div>
+			<div class="col">
+				<button class="btn" id="r0c4"></button>
+			</div>
+			<div class="col">
+				<button class="btn" id="r0c5"></button>
+			</div>
+			<div class="col">
+				<button class="btn" id="r0c6"></button>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col">
+				<button class="btn" id="r1c0"></button>
+			</div>
+			<div class="col">
+				<button class="btn" id="r1c1"></button>
+			</div>
+			<div class="col">
+				<button class="btn" id="r1c2"></button>
+			</div>
+			<div class="col">
+				<button class="btn" id="r1c3"></button>
+			</div>
+			<div class="col">
+				<button class="btn" id="r1c4"></button>
+			</div>
+			<div class="col">
+				<button class="btn" id="r1c5"></button>
+			</div>
+			<div class="col">
+				<button class="btn" id="r1c6"></button>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col">
+				<button class="btn" id="r2c0"></button>
+			</div>
+			<div class="col">
+				<button class="btn" id="r2c1"></button>
+			</div>
+			<div class="col">
+				<button class="btn" id="r2c2"></button>
+			</div>
+			<div class="col">
+				<button class="btn" id="r2c3"></button>
+			</div>
+			<div class="col">
+				<button class="btn" id="r2c4"></button>
+			</div>
+			<div class="col">
+				<button class="btn" id="r2c5"></button>
+			</div>
+			<div class="col">
+				<button class="btn" id="r2c6"></button>
+			</div>
+		</div>
+			
+		<div class="row">
+			<div class="col">
+				<button class="btn" id="r3c0"></button>
+			</div>
+			<div class="col">
+				<button class="btn" id="r3c1"></button>
+			</div>
+			<div class="col">
+				<button class="btn" id="r3c2"></button>
+			</div>
+			<div class="col">
+				<button class="btn" id="r3c3"></button>
+			</div>
+			<div class="col">
+				<button class="btn" id="r3c4"></button>
+			</div>
+			<div class="col">
+				<button class="btn" id="r3c5"></button>
+			</div>
+			<div class="col">
+				<button class="btn" id="r3c6"></button>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col">
+				<button class="btn" id="r4c0"></button>
+			</div>
+			<div class="col">
+				<button class="btn" id="r4c1"></button>
+			</div>
+			<div class="col">
+				<button class="btn" id="r4c2"></button>
+			</div>
+			<div class="col">
+				<button class="btn" id="r4c3"></button>
+			</div>
+			<div class="col">
+				<button class="btn" id="r4c4"></button>
+			</div>
+			<div class="col">
+				<button class="btn" id="r4c5"></button>
+			</div>
+			<div class="col">
+				<button class="btn" id="r4c6"></button>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col">
+				<button class="btn" id="r5c0"></button>
+			</div>
+			<div class="col">
+				<button class="btn" id="r5c1"></button>
+			</div>
+			<div class="col">
+				<button class="btn" id="r5c2"></button>
+			</div>
+			<div class="col">
+				<button class="btn" id="r5c3"></button>
+			</div>
+			<div class="col">
+				<button class="btn" id="r5c4"></button>
+			</div>
+			<div class="col">
+				<button class="btn" id="r5c5"></button>
+			</div>
+			<div class="col">
+				<button class="btn" id="r5c6"></button>
+			</div>
+		</div>
+
+	</div>
+
+		<button type="button" id="reset-btn">Play Again</button>
+
 </div>
-<button onclick="resetGame()">Reset Game</button>
-<script src="script.js"></script>
+
+	<script src="app.js"></script>
+
 </body>
+</html>
