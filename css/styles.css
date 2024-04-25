@@ -4,19 +4,23 @@ body {
 
 h1 {
 
+	color: #91c2c5;
 	font-family: "Kalam";
 	font-size: 3rem;
-	color: #62a8Ac;
+	letter-spacing: 5px;
 	text-align: center;
+	text-transform: uppercase;
 
 }
 
 h3 {
 
+	color: #91c2c5;
 	font-family: "Kalam";
 	font-size: 3rem;
-	color: #62a8Ac;
+	letter-spacing: 5px;
 	text-align: center;
+	text-transform: uppercase;
 
 }
 
@@ -45,11 +49,22 @@ h3 {
 
 }
 
-#player-type {
+#playerMsg {
 
 	color: #91c2c5;
 	font-family: "Kalam";
 	font-size: 2rem;
+	letter-spacing: 5px;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+
+#winnerMsg {
+
+	color: #91c2c5;
+	font-family: "Kalam";
+	font-size: 3rem;
 	letter-spacing: 5px;
 	text-align: center;
 	text-transform: uppercase;
@@ -106,15 +121,21 @@ h3 {
 
 }
 
+.button-container {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 10px 10px 10px 10px
+}
+
 #reset-btn {
 
-	background-color: transparent;
+	background-color: #3c6e71;
 	border: 2px solid #3c6e71;
 	border-radius: 5px;
-	color: #3c6e71;
+	color: #ffffff;
 	font-family: "Kalam";
 	font-size: 1.5rem;
-	margin: 50px 0;
+	margin: 10px 20px;
 	padding: 10px 40px;
 	text-transform: uppercase;
 	transition: 0.7s;
@@ -124,7 +145,7 @@ h3 {
 #reset-btn:hover {
 
 	background-color: #3c6e71;
-	color: #3c6e71;
+	color: #ffffff;
 	cursor: pointer;
 	transition: 0.7s;
 
@@ -132,13 +153,13 @@ h3 {
 
 #rules-btn {
 
-	background-color: transparent;
+	background-color: #3c6e71;
 	border: 2px solid #3c6e71;
 	border-radius: 5px;
-	color: #3c6e71;
+	color: #ffffff;
 	font-family: "Kalam";
 	font-size: 1.5rem;
-	margin: 50px 0;
+	margin: 10px 20px;
 	padding: 10px 40px;
 	text-transform: uppercase;
 	transition: 0.7s;
@@ -148,7 +169,7 @@ h3 {
 #rules-btn:hover {
 
 	background-color: #3c6e71;
-	color: #3c6e71;
+	color: #ffffff;
 	cursor: pointer;
 	transition: 0.7s;
 

@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Permanent+Marker&display=swap">
 
 	<!-- CSS -->
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="css/styles.css">
 
 	<!--Browser tab-->
 	<title>Connect Four Game</title>
@@ -20,8 +20,8 @@
 <div id="main-container">
 	<div id="player">
 	<h1>Connect Four!</h1>
-	<h1 id="player-type">Player 1</h1>
-	<h3 id="winner-msg"></h3>
+	<h1 id="playerMsg"></h1>
+	<h1 id="winnerMsg"></h1>
 	</div>
 	<div id="grid">
 		<div class="row">
@@ -163,38 +163,25 @@
 			</div>
 		</div>
 	</div>
-
-	<button id="rules-btn">Game Rules</button> <button type="button" id="reset-btn">Play Again</button>
+	<div class="button-container">
+		<button class="rules-btn" id="rules-btn">Game Rules</button> 
+		<button class="reset-btn" id="reset-btn">Play Again</button>
+	</div>
 		<dialog> 
-			<p> Introduction to Connect 4
-				Connect 4 is a two-player connection game that combines strategy with simplicity. Players take turns dropping colored discs into a grid, aiming to be the first to align four discs in a row. This classic game is easy to learn but offers rich strategic depth.
-				
-				Basic Rules
-				Game Setup: The game is played on a vertical board with seven columns and six rows.
-				Starting the Game: Players decide who goes first.
-				Taking Turns: On each turn, a player drops one disc into any column of their choice. The disc falls to the lowest available space in the column.
-				Winning the Game: The goal is to be the first player to form an unbroken horizontal, vertical, or diagonal line of four discs.
+			<p> <b></b>Introduction to Connect 4:</b><br>
+				Connect 4 is a two-player connection game that combines strategy with simplicity. Players take turns dropping colored discs into a grid, aiming to be the first to align four discs in a row. <br>This classic game is easy to learn but offers rich strategic depth.<br>
+				<br>Basic Rules<br>
+				Game Setup: The game is played on a vertical board with seven columns and six rows.<br>
+				Starting the Game: Players decide who goes first.<br>
+				Taking Turns: On each turn, a player drops one disc into any column of their choice. The disc falls to the lowest available space in the column.<br>
+				Winning the Game: The goal is to be the first player to form an unbroken horizontal, vertical, or diagonal line of four discs.<br>
 				Draw Condition: If the board is filled without any player achieving a line of four, the game ends in a draw.</p> 
 		<button id="close">Close</button> 
 		</dialog> 
-		
-		<!--<div class="rules" onclick="connectfourrules()">Click me!
-			<span class="game rules" id="Game Rules">
-				Introduction to Connect 4
-				Connect 4 is a two-player connection game that combines strategy with simplicity. Players take turns dropping colored discs into a grid, aiming to be the first to align four discs in a row. This classic game is easy to learn but offers rich strategic depth.
-				
-				Basic Rules
-				Game Setup: The game is played on a vertical board with seven columns and six rows.
-				Starting the Game: Players decide who goes first.
-				Taking Turns: On each turn, a player drops one disc into any column of their choice. The disc falls to the lowest available space in the column.
-				Winning the Game: The goal is to be the first player to form an unbroken horizontal, vertical, or diagonal line of four discs.
-				Draw Condition: If the board is filled without any player achieving a line of four, the game ends in a draw.</span>
-		  </div>-->
-   		
 
 </div>
 
-	<script src="app.js"></script>
+	<script src="js/app.js"></script>
 
 </body>
 </html>
