@@ -3,4 +3,8 @@
 
 Connect Four: Connect 4 is a two-player connection game that combines strategy with simplicity. Players take turns dropping colored discs into a grid, aiming to be the first to align four discs in a row. This classic game is easy to learn but offers rich strategic depth.
 
-Getting Started:  Planning Materials: https://git.generalassemb.ly/SEBR-Zebra/Course-Info/issues/7#issue-492379
+Getting Started: https://nicoleurquilla.github.io/connect_four/ Planning Materials: https://git.generalassemb.ly/SEBR-Zebra/Course-Info/issues/7#issue-492379
+
+Technologies Used: JavaScript, HTML, and CSS
+
+Next Steps: Music or sound effects with clicks
